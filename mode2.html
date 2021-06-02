@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Kartu Asik||Home</title>
+    <link rel="stylesheet" href="css/mode2_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div id="showcase">
+      <div id="container">
+        <div id="start">Kuis dimulai!</div>
+        <div id="quiz" style="display: none">
+            <div id="question"></div>
+            <!-- <div id="qImg"></div> -->
+            <div id="choices">
+                <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+                <!-- <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+                <div class="choice" id="C" onclick="checkAnswer('C')"></div> -->
+            </div>
+            <!-- <div id="timer">
+                <div id="counter"></div>
+                <div id="btimeGauge"></div>
+                <div id="timeGauge"></div>
+            </div> -->
+            <div id="progress"></div>
+        </div>
+        <div id="scoreContainer" style="display: none"></div>
+    </div>
+    </div>
+    <a id="button" href="index.html"><img src="css/img/back.png"></a>
+    <script src="quiz2.js"></script>
+  </body>
+  <footer>
+    <p>
+      Kartu Asik, Copyright @2021.
+    </p>
+  </footer>
+</html>
